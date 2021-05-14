@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none; 
+    color: #555;
+}
+
+nav ul li{
+    display: inline-block;
+    color: #555;
+    margin-right: 18px;
+}
+
+p{
+    color: rgb(47, 44, 44);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.col-2{
+    width: 50%;
+    min-width: 300px;
+}
+
+.header .row{
+    margin-top: 81px;
+}
+
+.col-2 img{
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.fa fa-shopping-cart{
+    color: white;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color, 1ms;
+}
+
+li a:hover{
+     color: #ccc;
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-2 h1{
+    size: 80px;
+    line-height: 50px;
+    margin: 10px 0px;
+    letter-spacing: 1.5px;
+}
+
+.fa-user-circle:before{
+    margin-right: 10px;
+}
+
+.header{
+    background : radial-gradient(#fff, black);
+}
+
+.btn{
+    display: inline-block;
+    background-color: #ff1e1e;
+    margin: 25px 0px ;
+    color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+    transition: background, 400ms;
+}
+
+.btn:hover{
+    background: black;
+}
+
+.bag-categories .container div h1{
+    text-align: center;
+    letter-spacing: 7px;
+    margin: 30px 0px;
+    color: #555;
+}
+
+.col-3 img{
+    margin: 10px 0px;
+    transition: opacity, 3ms;
+}
+
+.col-3 img:hover{
+    opacity: 0.7;
+}
+
+.col-4{
+    transition:  transform 0.5s;  
+    /* write alll transition */ 
+    flex-basis: 25%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.small-container h1{
+    text-align: center;
+    letter-spacing: 7px;
+    margin: 20px 0px;
+}
+
+.system{
+    margin-bottom: 50px;
+}
+
+.title{
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 0 auto 80px;
+    color: #555;
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+
+.rating .fa{
+    color: #ff523b;
+}
+
+.system .col-4:hover{
+    transform: translateY(-10px);
+}
+
+.small-container .offer-iwatch{
+    width:450px;
+}
+
+.col-2 #apple{
+    font-size: 40px;
+    text-align: left;
+}
+
+.offer{
+    background: radial-gradient(#fff, #555 );
+    padding: 30px 0px;
+}
+
+.col-2 p small{
+    font-size: 30px;
+    color: #555;
+}
+
+.offer .container .small-container .row .col-2 h4{
+    margin-top: 24px;
+    color: black;
+    font-size: 25px;
+}
+
+.offer .container .small-container .row .col-2 img{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    transition: width 800ms ;
+}
+
+.offer .container .small-container .row .col-2 img:hover{
+    width :550px;
+}
+
+.testimonial {
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.testimonial .col-4{
+    text-align: center;
+    padding: 40px 20px;
+    /* write box shado */
+    box-shadow:  0px 10px 20px 0px rgba(0,100,101,0.3);
+    cursor: pointer;
+}
+
+.testimonial .col-4 img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* likh0 */
+.fa.fa-quote-left{
+    color: #ff523b; 
+}
+
+.brands{
+    margin: 100px 0px;
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0%);
+}
+
+.footer{
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20%;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 13%;
+    text-align: center;
+}
+
+.footer-col-3 ul, .footer-col-4 ul{
+    list-style-type: none;
+}
+
+.add-logo img{
+    width: 120px;
+    margin-top: 15px;
+}
+
+.footer hr{
+    border: none;
+    background-color: #b5b5b5;
+    height: 1px;
+    margin: 20px 0px;
+}
+
+.copyright{
+    margin-top: 7px;
+    text-align: center;
+}
+
+.icon-logo{
+    margin-left: 20px;
+    width: 28px;
+    color: #fff;
+}
